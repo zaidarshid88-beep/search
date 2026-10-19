@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Image Search</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 15vh; }
+        input[type="text"] { width: 80%; max-width: 500px; padding: 12px 20px; border-radius: 24px; border: 1px solid #dfe1e5; outline: none; font-size: 16px; }
+        input[type="submit"] { background-color: #f8f9fa; border: 1px solid #f8f9fa; border-radius: 4px; color: #3c4043; padding: 10px 16px; margin-top: 20px; cursor: pointer; }
+        .links { position: absolute; top: 20px; right: 20px; }
+        .links a { color: #000; text-decoration: none; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="links">
+        <a href="index.html">Google Search</a>
+    </div>
+    <h1 style="font-size: 60px;">
+        <span style="color: #4285f4;">G</span><span style="color: #ea4335;">o</span><span style="color: #fbbc05;">o</span><span style="color: #4285f4;">g</span><span style="color: #34a853;">l</span><span style="color: #ea4335;">e</span>
+        <span style="font-size: 20px; color: #4285f4;">images</span>
+    </h1>
+    <form action="https://google.com/search">
+        <input type="text" name="q">
+        <input type="hidden" name="tbm" value="isch"><br>
+        <input type="submit" value="Image Search">
+    </form>
+</body>
+</html>
